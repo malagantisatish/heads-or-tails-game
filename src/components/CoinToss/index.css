@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#e2a139, #e2a139);
+}
+
+.head-or-toss {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-image-size {
+  height: 300px;
+}
+
+.heading {
+  color: #e2a139;
+  font-family: 'Roboto';
+  font-size: 38px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.toss-button {
+  height: 50px;
+  width: 120px;
+  background-color: #e2a139;
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score {
+  padding: 10px;
+  font-size: bold;
+  font-size: 25px;
+}
